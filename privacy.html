@@ -16,10 +16,10 @@
 </header>
 
 <h1>Privacy Policy</h1>
-<p class="date">Effective date: November 15, 2026</p>
+<p class="date">Effective date: November 18, 2026</p>
 
 <div class="card">
-<p><strong style="color:var(--cloud)">The short version:</strong> Simply Weather has no accounts and we have no servers, so nothing about you is sent to us. To show your weather, the app sends an approximate location to public weather services. The free version shows a banner ad from Google; Premium removes it.</p>
+<p><strong style="color:var(--cloud)">The short version:</strong> Simply Weather has no accounts and we have no servers, so nothing about you is sent to us. To show your weather, the app sends an approximate location to weather services. The free version shows a banner ad from Google; Premium removes it.</p>
 </div>
 
 <h2>What Simply Weather itself collects</h2>
@@ -28,11 +28,15 @@
 <h2>Location</h2>
 <p>The app asks for <strong style="color:var(--cloud)">approximate</strong> location only, and only uses it while the app is open. It never asks for precise or background location. Before a location leaves your phone it is rounded to about one kilometre. You can decline the permission and type in a place instead.</p>
 <p>To get your weather, that rounded location (or the place you chose) is sent directly from your phone to:</p>
-<p>• the U.S. National Weather Service (weather.gov), for the forecast, current conditions and weather alerts;<br>
-• the U.S. Environmental Protection Agency, for the UV index (by ZIP code) and, where shown, air quality from AirNow;<br>
-• NOAA and Google Maps, which receive the area of the map you are looking at so they can return the radar picture and the map under it.</p>
+<p>• OpenWeather (openweathermap.org), for the forecast, current conditions, weather alerts and air quality (version 0.2 and later);<br>
+• in version 0.1 only: the U.S. National Weather Service (weather.gov) for the forecast and alerts, and the U.S. Environmental Protection Agency for the UV index (by ZIP code) and air quality from AirNow;<br>
+• NOAA and Google Maps, which receive the area of the map you are looking at so they can return the radar picture and the map under it;<br>
+• NOAA's Climate Prediction Center (noaa.gov), for the long-range outlooks in the Extended section, for places in the United States only (version 0.3 and later). The rounded location is sent so NOAA can say which outlook area it falls in; the weeks 3–4 outlook is downloaded for the whole country and looked up on your phone.</p>
 <p>When you search for a place by name, and when the app looks up a town name or ZIP code for a location, it uses your phone's built-in place lookup, which on most phones is provided by Google.</p>
 <p>These services see the request and your device's internet address, as any website does. We do not receive any of it.</p>
+<h2>Notifications</h2>
+<p>Notifications are off until you turn them on in Settings: current conditions in your notification shade, rain about to start, and official weather alerts. While one is on, the app checks the weather in the background about once an hour for the place shown on your dashboard, using the place already saved on your phone. It does not look up where you are while it is closed. Those checks send the same rounded location to OpenWeather as above. Turning the notifications off stops the checks.</p>
+<p>Home-screen widgets (version 0.3 and later) show the same saved forecast. While a widget is on your home screen, the same background check runs even with notifications off; removing the widgets stops it. The widgets themselves send nothing.</p>
 
 <h2>Advertising (free version only)</h2>
 <p>The free version shows a single banner ad served by Google AdMob. As with any mobile advertising SDK, Google may collect and process certain data to provide and secure ads, including approximate location, app interaction data, diagnostics, and device or other identifiers (such as the advertising ID). This data is used for analytics, advertising, and fraud prevention, and is transmitted encrypted. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543">how Google uses data in AdMob</a>.</p>
